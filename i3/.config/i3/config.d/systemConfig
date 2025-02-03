@@ -61,7 +61,7 @@ bindsym $mod+Ctrl+v split v;exec notify-send 'Tile Vertically'
 bindsym $mod+f fullscreen toggle
 
 # Toggle tiling / floating
-bindsym $mod+Shift+f floating toggle
+bindsym $mod+Space floating toggle
 
 # Restarts i3 (Use to reload config)
 bindsym $mod+Shift+r exec --no-startup-id bash /home/itsonlycole/.config/i3/config.d/generatei3Config.sh
