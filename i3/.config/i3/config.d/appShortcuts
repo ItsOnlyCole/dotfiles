@@ -1,0 +1,24 @@
+#-----------------------------
+# General App Shortcuts
+#
+# A collection of app shorcuts
+# that are universal between
+# all my devices
+#-----------------------------
+
+# Terminal
+bindsym $mod+t exec --no-startup-id alacritty
+# Application launcher
+#bindsym $mod+d exec --no-startup-id rofi -show drun -theme ~/.config/rofi/themes/appLauncher_BannerCenter.rasi
+bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun -config ~/.config/rofi/rofidmenu.rasi
+# Window menu
+bindsym $mod+Shift+d exec --no-startup-id rofi -show window -config ~/.config/rofi/rofidmenu.rasi
+
+# Refreshes wallpapers
+bindsym $mod+Shift+w exec --no-startup-id bash ~/.config/scripts/setDesktopBackgrounds.sh
+
+#Show Keybinding (using rofi)
+bindsym $mod+F1 exec --no-startup-id ~/.config/i3/scripts/keyhint-2
+
+#Opens Thunar
+bindsym $mod+n exec --no-startup-id /usr/bin/thunar

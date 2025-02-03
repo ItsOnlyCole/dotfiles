@@ -1,0 +1,30 @@
+#################
+# Application   #
+#  Restrictions #
+#################
+
+# set floating (nontiling) for apps needing it
+for_window [title="File Transfer*"] floating enable
+for_window [class="Gparted"] floating enable border normal
+for_window [class="qt5ct"] floating enable sticky enable border normal
+for_window [title="sudo"] floating enable border normal
+for_window [class="cadence"] floating enable
+for_window [title="Steam Guard - Computer Authorization Required"] floating enable
+for_window [title="Ulauncher Preferences"] floating enable
+for_window [title="Bitwarden"] floating enabled
+for_window [title="Nextcloud"] floatin enabled
+for_window [class="Yad" instance="yad"] floating enable
+for_window [class="Galculator" instance="galculator"] floating enable
+
+# For popups
+for_window [window_role="pop-up"] floating enable
+#for_windows [window_role="task_dialog"] floating enable
+
+# set floating (nontiling) for special apps
+for_window [class="Xsane" instance="xsane"] floating enable
+for_window [class="Pavucontrol" instance="pavucontrol"] floating enable
+for_window [class="qt5ct" instance="qt5ct"] floating enable
+for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
+for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+for_window [class="Pamac-manager"] floating enable
+for_window [window_role="About"] floating enable
