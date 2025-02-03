@@ -22,3 +22,8 @@ bindsym $mod+F1 exec --no-startup-id ~/.config/i3/scripts/keyhint-2
 
 #Opens Thunar
 bindsym $mod+n exec --no-startup-id /usr/bin/thunar
+
+#Toggle Monitor Layout for Streaming (16:9 on Ultrawide)
+bindsym $mod+Ctrl+s exec --no-startup-id ~/.screenlayout/StreamingScreenLayout.sh
+#Toggle Monitor Layout back to normal (21:9 on Ultrawide)
+bindsym $mod+Shift+s exec --no-startup-id ~/.screenlayout/ScreenLayout.sh

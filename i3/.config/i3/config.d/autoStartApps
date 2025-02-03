@@ -22,7 +22,7 @@ exec --no-startup-id picom -b
 exec --no-startup-id dex --autostart --environment i3
 
 # Setup displays
-exec --no-startup-id ~/.screenlayout/monitor.sh
+exec --no-startup-id ~/.screenlayout/ScreenLayout.sh
 
 # Set Wallpaper
 exec --no-startup-id sleep 1 && feh --bg-fill ~/.local/share/wallpapers/horizontal/pink.png
